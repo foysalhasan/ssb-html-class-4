@@ -1,0 +1,106 @@
+.wrapper{
+	width: 50%;
+	margin: 30px auto;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 2px 2px 5px #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.wrapper .dv{
+	background-color: seagreen;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px 10px;
+	margin:40px 10px ;
+}
+
+
+.inbl a,
+.inbl h5{
+	display: inline-block;
+}
+
+h3{
+	color: #ff4646;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+p{
+	background-color: rebeccapurple;
+	color: #fff;
+	padding: 10px;
+	margin: 10px 0px;
+	font-size: 18px;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+legend{
+	color: #ff4646;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+label{
+	display: block;
+	font-size: 18px;
+	color: #777;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], textarea{
+	width: 80%;
+	padding: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+}
+
+
+button{
+	padding: 8px 16px;
+	color:red;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+textarea{
+	padding: 10px;
+}
+
+table{
+	width: 50%;
+	margin: 20px auto;
+	border: 2px solid #ddd;
+	border-collapse: collapse;
+}
+
+th, td{
+	border: 2px solid #ddd;
+	text-align: center;
+	padding: 10px;
+}
+
+th{
+	color: orangered;
+}
+td:hover{
+	background-color: #ddd;
+}
